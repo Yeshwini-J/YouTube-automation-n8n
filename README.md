@@ -27,7 +27,9 @@ Uploads it to YouTube automatically
 The automation follows this pipeline:
 Schedule Trigger → Google Sheets → IF Condition → Limit → Google Drive → YouTube Upload
 Each step processes data and passes it to the next node.
-
+screenshot
+#Workflow
+![Workflow](workflow.png)
 
 1. Schedule Trigger (Cron):
 The workflow begins with a Schedule Trigger node.
